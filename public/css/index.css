@@ -149,6 +149,9 @@
   .container-home .main .contain-main .square-icon img {
     width: 60px;
   }
+  .container-home .main .contain-message {
+    overflow-y: scroll;
+  }
   .container-home .main .contain-message .card-body {
     width: 70vw;
     padding-top: 5px;

@@ -73,6 +73,7 @@
                 }
             }
             .contain-message{
+                overflow-y: scroll;
                 .card-body{
                     width: 70vw;
                     padding-top: 5px;
