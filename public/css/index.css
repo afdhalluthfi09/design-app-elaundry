@@ -282,4 +282,92 @@
     align-items: center;
     gap: 10px;
   }
+}
+@media (max-width: 768px) {
+  .container-setting {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .container-setting .header {
+    width: 100%;
+    height: 20vh;
+    background-image: url("../gambar/retangle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .container-setting .header .text-sambutan {
+    margin-left: 26px;
+  }
+  .container-setting .header .text-user {
+    margin-left: 26px;
+  }
+  .container-setting .display-status {
+    display: flex;
+    position: relative;
+    top: -19px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container-setting .display-status .status {
+    width: 339px;
+    height: 90px;
+    background-color: #FFFAFA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+  }
+  .container-setting .display-status .status .l-flex {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 15px;
+    gap: 12px;
+  }
+  .container-setting .main {
+    width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .container-setting .main .contain-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px 35px;
+    justify-items: center;
+  }
+  .container-setting .main .contain-main .square-icon {
+    background-color: #E0F7EF;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 5px;
+  }
+  .container-setting .main .contain-main .square-icon img {
+    width: 60px;
+  }
+  .container-setting .navbar {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .container-setting .navbar div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 }/*# sourceMappingURL=index.css.map */
