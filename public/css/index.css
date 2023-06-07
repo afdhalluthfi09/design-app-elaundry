@@ -149,9 +149,6 @@
   .container-home .main .contain-main .square-icon img {
     width: 60px;
   }
-  .container-home .main .contain-message {
-    overflow-y: scroll;
-  }
   .container-home .main .contain-message .card-body {
     width: 70vw;
     padding-top: 5px;
@@ -181,12 +178,12 @@
     width: 100vw;
     position: fixed;
     bottom: 0;
-    z-index: 12;
+    z-index: 999;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 15px;
-    background-color: #fff;
+    background-color: blue;
   }
   .container-home .navbar div {
     display: flex;
