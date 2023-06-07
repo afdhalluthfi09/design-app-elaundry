@@ -137,11 +137,11 @@
             <h2>Lokasi Default</h2>
             <p>Lokasi Yang Anda Pilih Akan Sesuai Dengan Setingan Yang Anda Buat</p>
             <button>Set Lokasi</button>
-            
         </div>
     </div>
+    
+    <!-- settings -->
     <script>
-        
         let openModalBtn =document.getElementsByClassName("square-icon");
         let modal = document.getElementById("myModal");
         let closeBtn = document.getElementsByClassName("close")[0];
@@ -156,14 +156,12 @@
             element.addEventListener("click", function() {
                 modal.style.display = "block";
              });
-
             closeBtn.addEventListener("click", function() {
                 modal.style.display = "none";
             });
         }
 
         openModalBtnLokasiDefault.addEventListener("change",function(){
-            // console.log(openModalBtnLokasiDefault.value);
             if(openModalBtnLokasiDefault.value == "default"){
                 myModalLocation.style.display = "block";
             }
@@ -171,6 +169,6 @@
         closeBtnLocation.addEventListener("click",function(){
             myModalLocation.style.display = "none";
         })
-      </script>
+    </script>
 </body>
 </html>
