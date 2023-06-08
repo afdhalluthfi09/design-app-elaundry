@@ -183,7 +183,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 15px;
-    background-color: blue;
+    background-color: #FFFAFA;
   }
   .container-home .navbar div {
     display: flex;
