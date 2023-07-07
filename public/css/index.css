@@ -66,18 +66,6 @@
   cursor: pointer;
 }
 
-.collapse-content {
-  width: 70vw;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-
-.collapse-content.show {
-  width: 70vw;
-  max-height: fit-content; /* Nilai sesuai kebutuhan */
-}
-
 @media (max-width: 768px) {
   .container-home {
     width: 100%;
@@ -371,5 +359,135 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .container-login {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../gambar/splashScreen.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-login .contain-form {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 75vw;
+    border-radius: 10px;
+    height: 60%;
+    background-color: #fefefe;
+    border: 1px solid black;
+  }
+  .container-login .contain-form .banner {
+    width: 100%;
+    height: 15vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-login .contain-form form {
+    padding: 5px;
+  }
+  .container-login .contain-form form .display-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+  .container-login .contain-form form .form-group {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .container-login .contain-form form .form-group .form-label {
+    padding: 1px;
+  }
+  .container-login .contain-form form .form-group .form-control {
+    width: 100%;
+    height: 30px;
+    border: 1px #412727 solid;
+    border-radius: 3px;
+  }
+  .container-login .contain-form form .form-group .btn-submit {
+    padding: 5px;
+    background-color: #9dee6e;
+    color: #fefefe;
+  }
+  .container-login .contain-form .btn-google {
+    padding: 15px;
+    width: 100%;
+    background-color: #412727;
+    color: #fefefe;
+  }
+}
+@media (max-width: 768px) {
+  .container-register {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../gambar/splashScreen.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-register .contain-form {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 75vw;
+    border-radius: 10px;
+    height: 67%;
+    background-color: #fefefe;
+    border: 1px solid black;
+  }
+  .container-register .contain-form .banner {
+    width: 100%;
+    height: 15vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-register .contain-form form {
+    padding: 5px;
+  }
+  .container-register .contain-form form .display-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+  .container-register .contain-form form .form-group {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .container-register .contain-form form .form-group .form-label {
+    padding: 1px;
+  }
+  .container-register .contain-form form .form-group .form-control {
+    width: 100%;
+    height: 30px;
+    border: 1px #412727 solid;
+    border-radius: 3px;
+  }
+  .container-register .contain-form form .form-group .btn-submit {
+    padding: 5px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #9dee6e;
+    color: #fefefe;
+  }
+  .container-register .contain-form .btn-google {
+    padding: 15px;
+    width: 100%;
+    background-color: #412727;
+    color: #fefefe;
   }
 }/*# sourceMappingURL=index.css.map */
